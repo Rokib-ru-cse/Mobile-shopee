@@ -36,7 +36,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav m-auto font-rubik">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">On Sale</a>
                 </li>
@@ -44,18 +44,26 @@
                   <a class="nav-link" href="#">Category</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Products</a>
+                  <a class="nav-link" href="#">Products<i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Category</a>
+                    <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Coming Soon</a>
                 </li>
               </ul>
+              <form action="#" class="font-size-14 font-rale">
+                  <a href="#" class="py-2 rounded-pill color-primary-bg">
+                      <span class="font-size-16 px-12 text-white">
+                          <i class="fas fa-shopping-cart"></i>
+                      </span>
+                      <span class="px-3 py-2 rounded-pill bg-light">0</span>
+                  </a>
+              </form>
             </div>
           </nav> 
           <!-------!primary navigation---->       
@@ -63,7 +71,21 @@
     <!-----!start--#(header)-->
 
     <!-------start---#main-site----->
-    <main>
+    <main id="main-site">
+
+        <!-----owl carousel-->
+        <section id="banner-area">
+            <div class="owl-carousel owltheme">
+              <img src="./assets/Banner1.png" alt="Banner1">
+            </div>
+            <div class="owl-carousel owltheme">
+              <img src="./assets/Banner2.png" alt="Banner2">
+            </div>
+            <div class="owl-carousel owltheme">
+              <img src="./assets/Banner3.png" alt="Banner3">
+            </div>
+        </section>
+        <!-----!owl carousel-->
 
     </main>
     <!-------!start---#main-site----->
@@ -78,5 +100,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!---------custom javascript-->
+<script src="index.js"></script>
 </body>
 </html>
